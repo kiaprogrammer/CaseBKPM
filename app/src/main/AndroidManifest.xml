@@ -13,7 +13,19 @@
         android:theme="@style/Theme.CaseBKPM"
         tools:targetApi="31">
         <activity
-            android:name=".layout_sembilan_duabelas.MainActivity7"
+            android:name=".acara_intent.ImplicitIntent"
+            android:exported="true" />
+        <activity
+            android:name=".activity_tigabelas_enambelas.Main15"
+            android:exported="true" />
+        <activity
+            android:name=".acara_intent.IntenExplicit"
+            android:exported="true" />
+        <activity
+            android:name=".activity_tigabelas_enambelas.MainActivity9"
+            android:exported="true" />
+        <activity
+            android:name=".layout_sembilan_duabelas.MainActivity2"
             android:exported="true" />
         <activity
             android:name=".layout_sembilan_duabelas.MainActivity6"
@@ -31,7 +43,10 @@
             android:name=".layout_sembilan_duabelas.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".layout_sembilan_duabelas.MainActivity2"
+            android:name=".acara_fragment.MainFragmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity_tigabelas_enambelas.MainActivity8"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
